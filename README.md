@@ -100,6 +100,10 @@ This simple storage API represents backend components of a storage system, as re
 
    ```powershell
    & minikube -p minikube docker-env --shell=powershell | Invoke-Expression
+   docker build -t flask-storage-app .
+   kubectl apply -f k8s/deployment.yaml
+   kubectl apply -f k8s/service.yaml
+   minikube service flask-storage-service
    ```
 
 3. **Deploy the Application**
