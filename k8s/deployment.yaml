@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: flask-storage-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: flask-storage
+  template:
+    metadata:
+      labels:
+        app: flask-storage
+    spec:
+      containers:
+        - name: flask-storage-container
+          image: flask-storage-app:latest
+          imagePullPolicy: Never
+          ports:
+            - containerPort: 5000
+          volumeMounts:
+            - name: upload-storage
+              mountPath: /app/uploads
+      volumes:
+        - name: upload-storage
+          emptyDir: {}

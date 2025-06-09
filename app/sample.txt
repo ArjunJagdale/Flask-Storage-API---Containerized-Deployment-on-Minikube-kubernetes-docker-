@@ -1,0 +1,5 @@
+Window 1: System properties -> Environment variables 
+
+Window 2: -> Under System variables -> Path -> edit -> 
+
+Window 3: On the right side bar -> New -> Add the path to bin folder of java 8
