@@ -1,4 +1,4 @@
-# Flask Storage API - Containerized Deployment on Minikube (Windows)
+# Cloud-Native-Storage-API-with-Docker-and-Kubernetes
 
 This project demonstrates the design and development of a back-end storage system component as a Proof of Concept (PoC) aligned with modern cloud-native storage architectures. It showcases containerization of a Python Flask-based Storage API using Docker and deployment on a local Kubernetes cluster powered by Minikube. The project reflects hands-on experience with storage concepts, container orchestration, cloud platforms, and automation tools relevant to emerging storage system designs.
 
