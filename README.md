@@ -143,6 +143,12 @@ This simple storage API represents backend components of a storage system, as re
 
 ---
 
+## Project Screenshots:
+
+![1](https://github.com/user-attachments/assets/ca85cc28-3d7d-4124-a20a-7f6d1c99ffab)
+![2](https://github.com/user-attachments/assets/573b6d9c-92f0-417e-8e74-00d2488c6c57)
+![3](https://github.com/user-attachments/assets/38dc9a84-7181-40a9-ab32-23b241b44df1)
+
 ## Summary
 
 * **Backend Development**: Developed a backend component for file storage using Python Flask.
